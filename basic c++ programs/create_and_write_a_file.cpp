@@ -25,7 +25,7 @@ int main(int argc, const char **argv)
         cout << "\nWrite into your file :\n" << endl;
         for (int i = 1; i <= count; i++)
         {
-            getline(cin, name);
+            cin >> name;
             outfile << name << endl;
         }
         outfile.close();
