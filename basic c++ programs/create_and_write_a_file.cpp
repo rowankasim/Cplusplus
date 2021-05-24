@@ -22,8 +22,7 @@ int main(int argc, const char **argv)
     if (count != 0)
     {
         system("clear");
-        cout << "\nWrite into your file :\n"
-             << endl;
+        cout << "\nWrite into your file :\n" << endl;
         for (int i = 1; i <= count; i++)
         {
             getline(cin, name);
