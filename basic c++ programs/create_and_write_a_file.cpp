@@ -23,6 +23,7 @@ int main(int argc, const char **argv)
         cin.ignore();
         outfile << "Name: " << name << endl;
         outfile << "Age : " << age << endl;
+        outfile.close();
         cout << "\nIf you want to continue enter '1' else '0'\n";
         cin >> condition;
         cin.ignore();
