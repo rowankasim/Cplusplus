@@ -1,4 +1,5 @@
 //structure is a user - defined data type in C / C++.
+//By default, the visibility of structure is 'public'
 #include <iostream>
 #include <cstdlib>
 #include <fstream>
